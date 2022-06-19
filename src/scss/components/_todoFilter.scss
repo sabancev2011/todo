@@ -1,0 +1,19 @@
+.todoFilter{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__inner{
+        display: flex;
+        align-items: center;
+    }
+    &__clearBtn{
+        margin-right: 15px;
+    }
+    &__itemsLeft{
+        margin-left: 15px;
+    }
+    &__text{
+        margin-left: 5px;
+    }
+}

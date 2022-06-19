@@ -1,0 +1,40 @@
+@import "libs/normalaize";
+@import "components/all";
+
+body {
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #424449;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    background-color: aliceblue;
+}
+
+
+
+.todo {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    &__inner {
+        max-width: 500px;
+        width: 100%;
+        background-color: #ffff;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    &__title {
+        font-size: 36px;
+        font-weight: 200;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 14px;
+        margin-bottom: 25px;
+    }
+}
+
+

@@ -1,0 +1,31 @@
+.todoList {
+    &__item {
+        height: 50px;
+        padding-right: 20px;
+        border-bottom: 1px solid gainsboro;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    &__itemIconWrapper {
+        margin-left: 20px;
+        min-width: 30px;
+        min-height: 30px;
+        border-radius: 25px;
+        border: 1px solid gainsboro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__itemText {
+        font-size: 20px;
+        margin-left: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 5px;
+        &.isCompleted {
+            text-decoration: line-through  #424449;
+            color: gainsboro;
+        }
+    }
+}
